@@ -78,7 +78,12 @@ header, main, footer{
     margin: 0 auto;
     background-color: var(--white);
 }
+h1{
+    font-size:2em;
+    font-weight:bold ;
+    padding:1rem;
 
+}
 /* Shared header and footer styles */
 header, footer{
     text-align: center;
@@ -89,6 +94,7 @@ header, footer{
 nav{
     width: 50%;
     margin: 0 auto;
+    padding:1rem;
 }
 
 nav ul{
@@ -122,6 +128,18 @@ main > section{
 /* Styles for the h2 & h3 tags */
 h2, h3{
     text-align: center;
+}
+h2{
+    padding:2rem;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+h3{
+    font-size: 1.25em;
+
 }
 
 /* Paragraph Styles */
@@ -187,7 +205,8 @@ fieldset{
     grid-template-columns: 0.25fr 6fr 0.25fr 6fr;
     gap: 1rem;
     margin: 1rem 0;
-    border-color: var(--red);
+    border:2px solid var(--red);
+    padding: 5rem,1rem;
 }
 
 /* Code for Custom Radios - Compare to Your zyBook, I added additional code to make these match my form styles */
@@ -258,7 +277,10 @@ textarea{
     background-color: var(--coral);
     color: var(--dk-gray);
 }
+figure{
+    margin:0 auto;
 
+}
 /* Code Styles */
 code{
     font-family: var(--code-fonts);
